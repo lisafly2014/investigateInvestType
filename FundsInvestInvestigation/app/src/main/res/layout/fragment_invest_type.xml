@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="booster.co.nz.fundsinvestinvestigation.fragments.InvestTypeFragment">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/invest_type_headline"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:fontFamily="Helvetica"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id ="@+id/invest_type_title"
+        android:layout_below="@+id/invest_type_headline"
+        android:layout_marginTop="5dp"
+        android:text="@string/description"
+        android:textStyle="bold"
+        android:fontFamily="Helvetica"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item1"
+        android:layout_below="@+id/invest_type_title"
+        android:layout_marginTop="5dp"
+
+        android:textStyle="bold"
+        android:fontFamily="Helvetica"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item2"
+        android:layout_below="@+id/item1"
+
+        android:layout_marginTop="5dp"
+
+        android:textStyle="bold"
+        android:fontFamily="Helvetica"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item3"
+        android:layout_below="@+id/item2"
+        android:textStyle="bold"
+        android:fontFamily="Helvetica"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item4"
+        android:layout_below="@+id/item3"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:fontFamily="Helvetica"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item4"
+        android:id ="@+id/invest_type_image"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

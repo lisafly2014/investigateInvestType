@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">FundsInvestInvestigation</string>
+    <string name="entry_welcome">Welcome</string>
+    <string name="app_usage">The application helps you find out what type of investor you are. Use the menu to access the features.</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="next">Next</string>
+    <string name="show">Show</string>
+    <string name="action_settings">Settings</string>
+    <string name ="invest_menu">Menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="score_description">Your total score is: </string>
+    <string name="invest_description"> You are a </string>
+    <string name="investor">investor</string>
+
+    <string name="description">description</string>
+
+    <string name="capital_guaranteed_fund_headline">Capital Guaranteed Fund</string>
+
+    <string name="fund_title">Investment objective and strategy</string>
+
+    <string name="capital_guaranteed_fund_item1">
+        \u2022 The fund aims to provide relatively consistent returns, subject to a capital guarantee.
+    </string>
+    <string name="capital_guaranteed_fund_item2">
+        \u2022 It aims to achieve returns – after fees but before tax – of at least 1.5% per year above inflation over any 2-year period.
+    </string>
+    <string name="capital_guaranteed_fund_item3">
+       \u2022 Generally, there may be small movements up and down in the value of the fund.
+    </string>
+    <string name="capital_guaranteed_fund_item4">
+        \u2022 The fund invests mainly in income assets, and includes only a small amount of growth assets.
+    </string>
+
+    <string name="default_saver_fund">Default Saver Fund</string>
+
+    <string name="default_saver_fund_item1">
+        \u2022 The fund aims to provide relatively consistent but modest returns, with some capital gains over the long term.
+    </string>
+        <string name="default_saver_fund_item2">
+        \u2022 It aims to achieve achieve returns – after fees but before tax – of at least 2.0% per year above inflation over any 3-year period.
+    </string>
+        <string name="default_saver_fund_item3">
+        \u2022 Generally, there will be small movements up and down in the value of the fund, reflecting its temporary holding nature.
+    </string>
+        <string name="default_saver_fund_item4">
+        \u2022 The fund invests mainly in income assets, but includes some growth assets.
+    </string>
+
+
+    <string name="balanced_fund">Balanced Fund</string>
+
+    <string name="balanced_fund_item1">
+       \u2022 The fund aims to provide an enhanced return over the long term through capital gains.
+    </string>
+    <string name="balanced_fund_item2">
+       \u2022 It aims to achieve returns – after fees but before tax – of at least 3% per year above inflation over any 5-year period.
+    </string>
+    <string name="balanced_fund_item3">
+       \u2022 There will be some movements up and down in the value of the fund.
+    </string>
+    <string name="balanced_fund_item4">
+       \u2022 The fund invests in a more balanced mix of income assets and growth assets.
+    </string>
+
+    <string name="balanced_growth_fund">Balanced Growth Fund</string>
+
+    <string name="balanced_growth_fund_item1">
+        \u2022 The fund aims to provide long-term capital gains but to partially offset short-term movements up and down with some income assets.
+    </string>
+    <string name="balanced_growth_fund_item2">
+        \u2022 It aims to achieve returns – after fees but before tax –  of at least 4% per year above inflation over any 7-year period.
+    </string>
+    <string name="balanced_growth_fund_item3">
+        \u2022 There will be larger movements up and down in the value of the fund compared to the Balanced Fund.
+    </string>
+    <string name="balanced_growth_fund_item4">
+        \u2022 The fund invests mainly in growth assets, but includes some income assets.
+    </string>
+
+    <string name="high_growth_fund">High Growth Fund</string>
+    <string name="high_growth_fund_item1">
+        \u2022 The fund aims to maximise the potential for capital gains over the long term.
+    </string>
+    <string name="high_growth_fund_item2">
+        \u2022 It aims to achieve returns – after fees but before tax – of at least 5% per year above inflation over any 10-year period.
+    </string>
+    <string name="high_growth_fund_item3">
+        \u2022 There will be significant movements up and down in the value of the fund.
+    </string>
+    <string name="high_growth_fund_item4">
+        \u2022 The fund invests predominantly in growth assets, with little or no allocation to income assets.
+    </string>
+
+    <string name="tv_name">Name</string>
+    <string name="tv_email">Email</string>
+    <string name="tv_phone">Phone</string>
+    <string name="bt_submit">Submit</string>
+
+    <string name="tv_submit_sucess">Your score has been submitted.\n \n We will be in contact shortly.</string>
+
+    <string name="bt_return">Return</string>
+
+</resources>

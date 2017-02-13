@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id ="@+id/group1">
+        <item
+            android:id="@+id/nav_usage"
+            android:title="Usage" />
+    </group>
+
+    <group
+        android:id ="@+id/group2">
+        <item
+            android:title ="Invest Type">
+            <menu>
+                <item
+                    android:id ="@+id/nav_defensive"
+                    android:title="Defensive">
+                </item>
+                <item
+                    android:id ="@+id/nav_conservative"
+                    android:title="Conservative">
+                </item>
+                <item
+                    android:id ="@+id/nav_balanced"
+                    android:title="Balanced">
+                </item>
+                <item
+                    android:id ="@+id/nav_balanced_growth"
+                    android:title="Balanced Growth">
+                </item>
+                <item
+                    android:id ="@+id/nav_growth"
+                    android:title="Growth">
+                </item>
+                <item
+                    android:id ="@+id/nav_aggressive_growth"
+                    android:title="Aggressive Growth">
+                </item>
+            </menu>
+        </item>
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id ="@+id/group3">
+        <item
+            android:id="@+id/nav_questionnaire"
+            android:title="Questionnaire" />
+        <item
+            android:id="@+id/nav_submit"
+            android:title="Submit" />
+    </group>
+
+
+</menu>
