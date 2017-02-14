@@ -85,7 +85,7 @@ public class QuestionnaireResultFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        callBackQuestionnaireScore(String.valueOf(score));
+        onButtonPressed(String.valueOf(score));
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_questionnaire_result, container, false);
         tvDescription =(TextView)view.findViewById(R.id.result_description);
@@ -112,12 +112,14 @@ public class QuestionnaireResultFragment extends Fragment {
 
     }
 
-    public void callBackQuestionnaireScore(String score) {
+    public void onButtonPressed(String score) {
         if (mListener != null) {
             mListener.onFragmentInteraction(score);
         }
     }
 
+    // This makes sure that the container activity has implemented
+    // the callback interface. If not, it throws an exception
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
